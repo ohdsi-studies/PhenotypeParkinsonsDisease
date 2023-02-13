@@ -4,7 +4,7 @@ outputFolder <- "d:/temp/output"  # location where you study package will be cre
 
 ########## Please populate the information below #####################
 version <- "v0.1.0"
-name <- "Parkinsons Disease Phenotype - an OHDSI network study"
+name <- "PhenotypeParkinsonsDisease - an OHDSI network study"
 packageName <- "PhenotypeParkinsonsDisease"
 skeletonVersion <- "v0.0.1"
 createdBy <- "rao@ohdsi.org"
@@ -13,16 +13,23 @@ modifiedBy <- "rao@ohdsi.org"
 modifiedDate <- Sys.Date()
 skeletonType <- "CohortDiagnosticsStudy"
 organizationName <- "OHDSI"
-description <- "Cohort diagnostics on Parkisons Disease cohorts."
+description <- "Cohort diagnostics on PhenotypeParkinsonsDisease cohorts."
 
-
-library(magrittr)
-# Set up
+# Set up# from atlas-phenotype.ohdsi.org (note: approved phenotypes do not have '[')
+# baseUrl <- "https://atlas-phenotype.ohdsi.org/WebAPI"
 baseUrl <- "https://api.ohdsi.org/WebAPI"
+# ROhdsiWebApi::authorizeWebApi(
+#   baseUrl = baseUrl,
+#   authMethod = "db",
+#   webApiUsername = keyring::key_get("ohdsiAtlasPhenotypeUser"),
+#   webApiPassword = keyring::key_get("ohdsiAtlasPhenotypePassword")
+# )
 webApiCohorts <- ROhdsiWebApi::getCohortDefinitionsMetaData(baseUrl = baseUrl)
-studyCohorts <-  webApiCohorts %>%
+studyCohorts <-  webApiCohorts |>
   dplyr::filter(stringr::str_detect(string = name, 
-                                    pattern = stringr::fixed("[Pheb2023][ucepd]"))) %>%
+                                    pattern = stringr::fixed("[Pheb2023]"))) |>
+  dplyr::filter(stringr::str_detect(string = name, 
+                                    pattern = stringr::fixed("Parkinson"))) |>
   dplyr::filter(stringr::str_detect(string = name, 
                                     pattern = stringr::fixed("COPY"),
                                     negate = TRUE))
@@ -62,7 +69,7 @@ specifications <- list(id = 1,
                        cohortDefinitions = cohortDefinitionsArray)
 
 jsonFileName <- paste0(file.path(tempFolder, "CohortDiagnosticsSpecs.json"))
-write(x = specifications %>% RJSONIO::toJSON(pretty = TRUE, digits = 23), file = jsonFileName)
+write(x = specifications |> RJSONIO::toJSON(pretty = TRUE, digits = 23), file = jsonFileName)
 
 
 ##############################################################
