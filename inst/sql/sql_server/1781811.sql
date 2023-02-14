@@ -395,8 +395,10 @@ FROM
   INNER JOIN
   (
     -- Begin Correlated Criteria
-select 0 as index_id, cc.person_id, cc.event_id
-from (SELECT p.person_id, p.event_id 
+select 0 as index_id, p.person_id, p.event_id
+from #qualified_events p
+LEFT JOIN (
+SELECT p.person_id, p.event_id 
 FROM #qualified_events P
 JOIN (
   -- Begin Visit Occurrence Criteria
@@ -412,9 +414,9 @@ LEFT JOIN @cdm_database_schema.PROVIDER PR on C.provider_id = PR.provider_id
 WHERE PR.specialty_concept_id in (43125860,45756763,45756772,903250,38004458,45756788,45756789,38003964,903241,45756792,44777781,45756834)
 -- End Visit Occurrence Criteria
 
-) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-1095,P.START_DATE) AND A.START_DATE <= DATEADD(day,0,P.START_DATE) ) cc 
-GROUP BY cc.person_id, cc.event_id
-HAVING COUNT(cc.event_id) >= 1
+) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-1095,P.START_DATE) AND A.START_DATE <= DATEADD(day,0,P.START_DATE) ) cc on p.person_id = cc.person_id and p.event_id = cc.event_id
+GROUP BY p.person_id, p.event_id
+HAVING COUNT(cc.event_id) = 0
 -- End Correlated Criteria
 
   ) CQ on E.person_id = CQ.person_id and E.event_id = CQ.event_id
@@ -456,8 +458,8 @@ FROM
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
   JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 0)
 ) C
-LEFT JOIN @cdm_database_schema.PROVIDER PR on C.provider_id = PR.provider_id
-WHERE PR.specialty_concept_id in (43125860,45756763,45756772,903250,38004458,45756788,45756789,38003964,903241,45756792,44777781,45756834)
+
+
 -- End Condition Occurrence Criteria
 
 ) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-365,P.START_DATE) AND A.START_DATE <= DATEADD(day,0,P.START_DATE) ) cc 
@@ -506,8 +508,8 @@ FROM
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
   JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 10)
 ) C
-LEFT JOIN @cdm_database_schema.PROVIDER PR on C.provider_id = PR.provider_id
-WHERE PR.specialty_concept_id in (43125860,45756763,45756772,903250,38004458,45756788,45756789,38003964,903241,45756792,44777781,45756834)
+
+
 -- End Condition Occurrence Criteria
 
 ) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-365,P.START_DATE) AND A.START_DATE <= DATEADD(day,0,P.START_DATE) ) cc on p.person_id = cc.person_id and p.event_id = cc.event_id
@@ -556,8 +558,8 @@ FROM
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
   JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 8)
 ) C
-LEFT JOIN @cdm_database_schema.PROVIDER PR on C.provider_id = PR.provider_id
-WHERE PR.specialty_concept_id in (43125860,45756763,45756772,903250,38004458,45756788,45756789,38003964,903241,45756792,44777781,45756834)
+
+
 -- End Condition Occurrence Criteria
 
 ) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-365,P.START_DATE) AND A.START_DATE <= DATEADD(day,0,P.START_DATE) ) cc on p.person_id = cc.person_id and p.event_id = cc.event_id

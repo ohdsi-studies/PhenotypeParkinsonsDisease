@@ -3,7 +3,7 @@ atlasId,cohortId,id,cohortName
 1781779,1781779,1781779,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus neuro2year (2 of 6)
 1781780,1781780,1781780,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus neuro3year (3 of 6)
 1781781,1781781,1781781,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus nonneuro1year (4 of 6)
-1781732,1781732,1781732,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus neuro1year (1 of 6)
+1781732,1781732,1781732,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty neuro1year (1 of 6)
 1781783,1781783,1781783,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus nonneuro3year (6 of 6)
 1781782,1781782,1781782,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus nonneuro2year (5 of 6)
 1781760,1781760,1781760,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity with meds
@@ -11,3 +11,11 @@ atlasId,cohortId,id,cohortName
 1781774,1781774,1781774,[Pheb2023][ucepd] Persons with Parkinson's Disease unaminity reindexed
 1781785,1781785,1781785,[Pheb2023][ucepd] Persons with Parkinson's Disease unaminity reindexed (PP)
 1781786,1781786,1781786,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity with meds (PP)
+1781811,1781811,1781811,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty noneuro1yr (4 of 6)
+1781809,1781809,1781809,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty neuro2year (2 of 6)
+1781810,1781810,1781810,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty neuro3year (3 of 6)
+1781812,1781812,1781812,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty noneuro2yr (5 of 6)
+1781813,1781813,1781813,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty noneuro3yr (6 of 6)
+1781814,1781814,1781814,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 1yr (1 of 3)
+1781815,1781815,1781815,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 2yr (2 of 3)
+1781816,1781816,1781816,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 3yr (3 of 3)

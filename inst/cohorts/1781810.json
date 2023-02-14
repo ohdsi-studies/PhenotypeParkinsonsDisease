@@ -1184,7 +1184,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has seen neurologist in the last 3 years"
+      "name": "has neurologist visit in last 3 years"
     },
     {
       "expression": {
@@ -1193,11 +1193,11 @@
           "StartWindow": {
             "UseEventEnd": false,
             "Start": {
-              "Days": 365,
+              "Days": 1095,
               "Coeff": -1
             },
             "End": {
-              "Days": 0,
+              "Days": 730,
               "Coeff": -1
             },
             "UseIndexEnd": false
@@ -1364,7 +1364,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has neurologist visit with PD diagnosis in last 1 year"
+      "name": "has neurologist visit with PD diagnosis in 2-3 years prior"
     },
     {
       "expression": {
@@ -1373,7 +1373,187 @@
           "StartWindow": {
             "UseEventEnd": false,
             "Start": {
-              "Days": 365,
+              "Days": 730,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "ProviderSpecialty": [
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 43125860,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "2084B0040X",
+                "VOCABULARY_ID": "NUCC",
+                "CONCEPT_NAME": "Behavioral Neurology and Neuropsychiatry",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756763,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4821979",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Clinical Neurophysiology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756772,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4821971",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Epilepsy",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 903250,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "2084A2900X",
+                "VOCABULARY_ID": "NUCC",
+                "CONCEPT_NAME": "Neurocritical Care Medicine",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 38004458,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "13",
+                "VOCABULARY_ID": "Medicare Specialty",
+                "CONCEPT_NAME": "Neurology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756788,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4821955",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Neurology with Special Qualification in Child Neurology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756789,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4821954",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Neuromuscular Medicine",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 38003964,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "2081N0008X",
+                "VOCABULARY_ID": "NUCC",
+                "CONCEPT_NAME": "Neuromuscular Rehabilitation Medicine",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 903241,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "207WX0109X",
+                "VOCABULARY_ID": "NUCC",
+                "CONCEPT_NAME": "Neuro-Ophthalmology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756792,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4821951",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Neurotology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 44777781,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "421",
+                "VOCABULARY_ID": "HES Specialty",
+                "CONCEPT_NAME": "Paediatric neurology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 45756834,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP4822007",
+                "VOCABULARY_ID": "ABMS",
+                "CONCEPT_NAME": "Vascular Neurology",
+                "DOMAIN_ID": "Provider",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              }
+            ]
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": "DOMAIN_CONCEPT",
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has no neurologist visit with PD diagnosis in last 2 years"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1095,
               "Coeff": -1
             },
             "End": {
@@ -1543,7 +1723,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has no secondary parkinsonism in last 1 year"
+      "name": "has no secondary parkinsonism in last 3 years"
     },
     {
       "expression": {
@@ -1552,7 +1732,7 @@
           "StartWindow": {
             "UseEventEnd": false,
             "Start": {
-              "Days": 365,
+              "Days": 1095,
               "Coeff": -1
             },
             "End": {
@@ -1722,7 +1902,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has no neurodegenerative nonPD parkinsonism in last 1 year"
+      "name": "has no neurodegenerative nonPD parkinsonism in last 3 years"
     }
   ],
   "PrimaryCriteria": {
