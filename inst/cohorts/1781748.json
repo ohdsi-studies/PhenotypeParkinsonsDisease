@@ -7,27 +7,6 @@
   "CensorWindow": {},
   "ConceptSets": [
     {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 381270,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "49049000",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Parkinson's disease",
-          "DOMAIN_ID": "Condition",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Clinical Finding",
-          "INVALID_REASON": "V"
-        },
-        "includeMapped": false,
-        "includeDescendants": false
-      }]},
-      "name": "Parkinson's Disease (PD)",
-      "id": 0
-    },
-    {
       "expression": {"items": [
         {
           "isExcluded": false,
@@ -316,6 +295,63 @@
       ]},
       "name": "parkinsonism (secondary) [ucepd][Pheb2023]",
       "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 381270,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "49049000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Parkinson's disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37110776,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "725146001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atypical juvenile parkinsonism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399497,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "716107009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Early onset parkinsonism and intellectual disability syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Parkinson's Disease [ucepd][Pheb2023]",
+      "id": 10
     }
   ],
   "cdmVersionRange": ">=5.0.0",
@@ -353,7 +389,7 @@
           "IgnoreObservationPeriod": true,
           "Criteria": {"ConditionOccurrence": {
             "ConditionTypeExclude": false,
-            "CodesetId": 0
+            "CodesetId": 10
           }},
           "Occurrence": {
             "Type": 2,
@@ -365,7 +401,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has at least 1 PD specific code"
+      "name": "has at least 1 PD condition occurrence"
     },
     {
       "expression": {
@@ -395,7 +431,7 @@
                     "Coeff": -1
                   },
                   "End": {
-                    "Days": 0,
+                    "Days": 1,
                     "Coeff": -1
                   },
                   "UseIndexEnd": false
@@ -403,7 +439,7 @@
                 "IgnoreObservationPeriod": true,
                 "Criteria": {"ConditionOccurrence": {
                   "ConditionTypeExclude": false,
-                  "CodesetId": 0
+                  "CodesetId": 10
                 }},
                 "Occurrence": {
                   "Type": 2,
@@ -416,7 +452,7 @@
               "Groups": []
             },
             "ConditionTypeExclude": false,
-            "CodesetId": 0
+            "CodesetId": 10
           }},
           "Occurrence": {
             "Type": 2,
@@ -429,7 +465,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has 2 encounters with PD code that are at least 30 days apart"
+      "name": "has 2 encounters with PD that are at least 30 days apart"
     },
     {
       "expression": {
