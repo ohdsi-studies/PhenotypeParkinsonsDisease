@@ -32,7 +32,10 @@ studyCohorts <-  webApiCohorts |>
                                     pattern = stringr::fixed("Parkinson"))) |>
   dplyr::filter(stringr::str_detect(string = name, 
                                     pattern = stringr::fixed("COPY"),
-                                    negate = TRUE))
+                                    negate = TRUE)) |> 
+  dplyr::filter(id %in% c(1781748,1781760,1781843 ,1781844 ,
+                          1781814 , 1781815 , 1781816 ,
+                          1781732 ,1781809 , 1781810 ,1781811 ,1781812 , 1781813 ))
 
 # compile them into a data table
 cohortDefinitionsArray <- list()

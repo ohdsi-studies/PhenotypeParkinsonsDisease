@@ -1,8 +1,4 @@
 atlasId,cohortId,id,cohortName
-1781749,1781749,1781749,[Pheb2023][ucepd] Persons with Parkinson's disease xSpec entry earliest
-1781774,1781774,1781774,[Pheb2023][ucepd] Persons with Parkinson's Disease unaminity reindexed
-1781785,1781785,1781785,[Pheb2023][ucepd] Persons with Parkinson's Disease unaminity reindexed (PP)
-1781786,1781786,1781786,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity with meds (PP)
 1781814,1781814,1781814,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 1yr (1 of 3)
 1781815,1781815,1781815,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 2yr (2 of 3)
 1781816,1781816,1781816,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus wo specialty 3yr (3 of 3)
@@ -12,11 +8,7 @@ atlasId,cohortId,id,cohortName
 1781810,1781810,1781810,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty neuro3year (3 of 6)
 1781811,1781811,1781811,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty noneuro1yr (4 of 6)
 1781813,1781813,1781813,[Pheb2023][ucepd] Persons with Parkinson's disease tiered consensus w specialty noneuro3yr (6 of 6)
-1781859,1781859,1781859,[Pheb2023][ucepd] Persons with Parkinson's disease xSens entry earliest
-1781900,1781900,1781900,[Pheb2023][ucepd] Persons with Parkinson's disease xSens entry latest
 1781843,1781843,1781843,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity wo confounding meds
-1781899,1781899,1781899,[Pheb2023][ucepd] Persons with Parkinson's disease xSpec entry latest
-1781864,1781864,1781864,[Pheb2023][ucepd] Parkinson's disease unaminity (entry on all events)
 1781748,1781748,1781748,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity
 1781760,1781760,1781760,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity with PD meds
 1781844,1781844,1781844,[Pheb2023][ucepd] Persons with Parkinson's disease unaminity w PD wo confounding meds
