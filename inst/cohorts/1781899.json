@@ -7,6 +7,186 @@
   "CensorWindow": {},
   "ConceptSets": [
     {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 381270,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "49049000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Parkinson's disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }]},
+      "name": "Parkinson's Disease (PD)",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 435783,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "58214004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizophrenia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4286201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "68890003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizoaffective disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434010,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "31027006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizotypal personality disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 376387,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "74333002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Spasmodic torticollis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4043388,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230318005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Idiopathic familial dystonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4047755,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230321007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Idiopathic non-familial dystonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4046100,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230326002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Idiopathic orofacial dystonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 435802,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "59026006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Blepharospasm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 432899,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "30753002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Normal pressure hydrocephalus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Parkinsonism confounder conditions",
+      "id": 6
+    },
+    {
       "expression": {"items": [
         {
           "isExcluded": false,
@@ -234,23 +414,6 @@
           },
           "includeMapped": false,
           "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4103534,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "28978003",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Progressive supranuclear ophthalmoplegia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
         }
       ]},
       "name": "parkinsonism (neurodegenerative, non-PD) conditions [ucepd][Pheb2023]",
@@ -262,11 +425,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 374013,
+            "CONCEPT_ID": 381270,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "230292008",
+            "CONCEPT_CODE": "49049000",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Secondary parkinsonism",
+            "CONCEPT_NAME": "Parkinson's disease",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -276,24 +439,41 @@
           "includeDescendants": true
         },
         {
-          "isExcluded": false,
+          "isExcluded": true,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 432899,
+            "CONCEPT_ID": 37110776,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "30753002",
+            "CONCEPT_CODE": "725146001",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Normal pressure hydrocephalus",
+            "CONCEPT_NAME": "Atypical juvenile parkinsonism",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": true
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399497,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "716107009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Early onset parkinsonism and intellectual disability syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "parkinsonism (secondary) [ucepd][Pheb2023]",
+      "name": "Parkinson's Disease [ucepd][Pheb2023]",
       "id": 9
     },
     {
@@ -512,11 +692,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 381270,
+            "CONCEPT_ID": 374013,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "49049000",
+            "CONCEPT_CODE": "230292008",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Parkinson's disease",
+            "CONCEPT_NAME": "Secondary parkinsonism",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -526,41 +706,24 @@
           "includeDescendants": true
         },
         {
-          "isExcluded": true,
+          "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 37110776,
+            "CONCEPT_ID": 432899,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "725146001",
+            "CONCEPT_CODE": "30753002",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Atypical juvenile parkinsonism",
+            "CONCEPT_NAME": "Normal pressure hydrocephalus",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 37399497,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "716107009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Early onset parkinsonism and intellectual disability syndrome",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         }
       ]},
-      "name": "Parkinson's Disease [ucepd][Pheb2023]",
+      "name": "parkinsonism (secondary) [ucepd][Pheb2023]",
       "id": 11
     },
     {
@@ -1646,20 +1809,14 @@
           "RestrictVisit": false,
           "StartWindow": {
             "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": 0,
-              "Coeff": -1
-            },
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
             "UseIndexEnd": false
           },
           "IgnoreObservationPeriod": true,
           "Criteria": {"ConditionOccurrence": {
             "ConditionTypeExclude": false,
-            "CodesetId": 11
+            "CodesetId": 9
           }},
           "Occurrence": {
             "Type": 2,
@@ -1671,7 +1828,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has at least 1 PD condition occurrence"
+      "name": "has at least 1 PD condition in PD concept set"
     },
     {
       "expression": {
@@ -1679,14 +1836,8 @@
           "RestrictVisit": false,
           "StartWindow": {
             "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": 0,
-              "Coeff": -1
-            },
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
             "UseIndexEnd": false
           },
           "IgnoreObservationPeriod": true,
@@ -1706,7 +1857,7 @@
                 "IgnoreObservationPeriod": true,
                 "Criteria": {"ConditionOccurrence": {
                   "ConditionTypeExclude": false,
-                  "CodesetId": 11
+                  "CodesetId": 0
                 }},
                 "Occurrence": {
                   "Type": 2,
@@ -1719,7 +1870,7 @@
               "Groups": []
             },
             "ConditionTypeExclude": false,
-            "CodesetId": 11
+            "CodesetId": 0
           }},
           "Occurrence": {
             "Type": 2,
@@ -1732,7 +1883,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has 2 encounters with PD that are at least 30 days apart"
+      "name": "has 2 encounters with PD code that are at least 30 days apart"
     },
     {
       "expression": {
@@ -1740,76 +1891,7 @@
           "RestrictVisit": false,
           "StartWindow": {
             "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": 0,
-              "Coeff": -1
-            },
-            "UseIndexEnd": false
-          },
-          "IgnoreObservationPeriod": true,
-          "Criteria": {"ConditionOccurrence": {
-            "ConditionTypeExclude": false,
-            "CodesetId": 9
-          }},
-          "Occurrence": {
-            "Type": 0,
-            "IsDistinct": false,
-            "Count": 0
-          }
-        }],
-        "Type": "ALL",
-        "DemographicCriteriaList": [],
-        "Groups": []
-      },
-      "name": "has no secondary parkinsonism conditions"
-    },
-    {
-      "expression": {
-        "CriteriaList": [{
-          "RestrictVisit": false,
-          "StartWindow": {
-            "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": 0,
-              "Coeff": -1
-            },
-            "UseIndexEnd": false
-          },
-          "IgnoreObservationPeriod": true,
-          "Criteria": {"ConditionOccurrence": {
-            "ConditionTypeExclude": false,
-            "CodesetId": 8
-          }},
-          "Occurrence": {
-            "Type": 0,
-            "IsDistinct": false,
-            "Count": 0
-          }
-        }],
-        "Type": "ALL",
-        "DemographicCriteriaList": [],
-        "Groups": []
-      },
-      "name": "has no (non-PD) neurodegenerative parkinsonism conditions"
-    },
-    {
-      "expression": {
-        "CriteriaList": [{
-          "RestrictVisit": false,
-          "StartWindow": {
-            "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
+            "Start": {"Coeff": -1},
             "End": {
               "Days": 0,
               "Coeff": 1
@@ -1831,7 +1913,7 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has PD medications"
+      "name": "has Parkinson's medication"
     },
     {
       "expression": {
@@ -1839,20 +1921,14 @@
           "RestrictVisit": false,
           "StartWindow": {
             "UseEventEnd": false,
-            "Start": {
-              "Days": 1095,
-              "Coeff": -1
-            },
-            "End": {
-              "Days": 0,
-              "Coeff": -1
-            },
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
             "UseIndexEnd": false
           },
           "IgnoreObservationPeriod": true,
-          "Criteria": {"DrugExposure": {
-            "CodesetId": 13,
-            "DrugTypeExclude": false
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 11
           }},
           "Occurrence": {
             "Type": 0,
@@ -1864,8 +1940,230 @@
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "has no confounding medications",
-      "description": "exclude medications associated with drug-induced parkinsonism"
+      "name": "has no secondary parkinsonism"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 6
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has no Parkinsonism confounder conditions"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"ConditionOccurrence": {
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": 365,
+                    "Coeff": 1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": true,
+                "Criteria": {"ConditionOccurrence": {
+                  "CorrelatedCriteria": {
+                    "CriteriaList": [{
+                      "RestrictVisit": false,
+                      "StartWindow": {
+                        "UseEventEnd": false,
+                        "Start": {
+                          "Days": 365,
+                          "Coeff": 1
+                        },
+                        "End": {"Coeff": 1},
+                        "UseIndexEnd": false
+                      },
+                      "IgnoreObservationPeriod": true,
+                      "Criteria": {"ConditionOccurrence": {
+                        "CorrelatedCriteria": {
+                          "CriteriaList": [{
+                            "RestrictVisit": false,
+                            "StartWindow": {
+                              "UseEventEnd": false,
+                              "Start": {
+                                "Days": 365,
+                                "Coeff": 1
+                              },
+                              "End": {"Coeff": 1},
+                              "UseIndexEnd": false
+                            },
+                            "IgnoreObservationPeriod": true,
+                            "Criteria": {"ConditionOccurrence": {
+                              "ConditionTypeExclude": false,
+                              "CodesetId": 0
+                            }},
+                            "Occurrence": {
+                              "Type": 2,
+                              "IsDistinct": false,
+                              "Count": 1
+                            }
+                          }],
+                          "Type": "ALL",
+                          "DemographicCriteriaList": [],
+                          "Groups": []
+                        },
+                        "ConditionTypeExclude": false,
+                        "CodesetId": 0
+                      }},
+                      "Occurrence": {
+                        "Type": 2,
+                        "IsDistinct": false,
+                        "Count": 1
+                      }
+                    }],
+                    "Type": "ALL",
+                    "DemographicCriteriaList": [],
+                    "Groups": []
+                  },
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 0
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "ConditionTypeExclude": false,
+            "CodesetId": 0
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": "START_DATE",
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has encounters with PD code across at least 4 years"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"DrugEra": {
+            "CodesetId": 10,
+            "EraLength": {
+              "Op": "gt",
+              "Value": 183
+            }
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has Parkinson's medication with duration >6 months"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"DrugEra": {"CodesetId": 13}},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has no meds associated with parkinsonism"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": true,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 8
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has no non-PD neurodegenerative parkinsonism"
     }
   ],
   "PrimaryCriteria": {

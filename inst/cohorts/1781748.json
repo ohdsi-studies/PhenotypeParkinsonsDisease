@@ -428,12 +428,9 @@
                   "UseEventEnd": false,
                   "Start": {
                     "Days": 30,
-                    "Coeff": -1
+                    "Coeff": 1
                   },
-                  "End": {
-                    "Days": 1,
-                    "Coeff": -1
-                  },
+                  "End": {"Coeff": 1},
                   "UseIndexEnd": false
                 },
                 "IgnoreObservationPeriod": true,

@@ -78,22 +78,16 @@ LEFT JOIN
 ) E ON I.concept_id = E.concept_id
 WHERE E.concept_id is null
 ) C UNION ALL 
-SELECT 12 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 13 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (21604490,836877,1593670,1593849,1362225,19085688)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (19136626,19008012,19010886,792263,46275300,794852,19016440,37498659,19017241,19018226,19025922,19028044,19029555,40137339,19035226,19039227,19041817,19043327,700299,700465,19050633,19051234,19052903,703083,19053565,703244,704984,19055982,19056465,19057607,709699,40164052,712615,19072088,733008,735979,35603277,739323,19093225,19095002,745790,19100431,19100363,19102109,752061,756018,757688,19115044,766529,19122262,40230761,19000305,19131663,19133992,785788,19005101,19005104,19005147,1593670,836877,1593849,1362225)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (21604490,836877,1593670,1593849,1362225,19085688)
+  and ca.ancestor_concept_id in (19136626,19008012,19010886,792263,46275300,794852,19016440,37498659,19017241,19018226,19025922,19028044,19029555,40137339,19035226,19039227,19041817,19043327,700299,700465,19050633,19051234,19052903,703083,19053565,703244,704984,19055982,19056465,19057607,709699,40164052,712615,19072088,733008,735979,35603277,739323,19093225,19095002,745790,19100431,19100363,19102109,752061,756018,757688,19115044,766529,19122262,40230761,19000305,19131663,19133992,785788,19005101,19005104,19005147,1593670,836877,1593849,1362225)
   and c.invalid_reason is null
 
 ) I
-LEFT JOIN
-(
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (21604555,1123677,42628962,21604542,766814,800878)
-
-) E ON I.concept_id = E.concept_id
-WHERE E.concept_id is null
 ) C
 ;
 
@@ -314,7 +308,7 @@ FROM
 
 -- End Condition Occurrence Criteria
 
-) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,-30,P.START_DATE) AND A.START_DATE <= DATEADD(day,-1,P.START_DATE) ) cc 
+) A on A.person_id = P.person_id  AND A.START_DATE >= DATEADD(day,30,P.START_DATE) ) cc 
 GROUP BY cc.person_id, cc.event_id
 HAVING COUNT(cc.event_id) >= 1
 -- End Correlated Criteria
@@ -520,7 +514,7 @@ from
 (
   select de.* 
   FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 12)
+JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 13)
 ) C
 
 

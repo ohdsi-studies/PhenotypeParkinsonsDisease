@@ -359,130 +359,980 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604490,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "N05A",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "ANTIPSYCHOTICS",
+            "CONCEPT_ID": 19136626,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10239",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulpiride",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
           "includeDescendants": true
         },
         {
-          "isExcluded": true,
+          "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604555,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "N05AN",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "Lithium",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 4th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1123677,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "N05AX17",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "pimavanserin; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42628962,
+            "CONCEPT_ID": 19008012,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1791685",
+            "CONCEPT_CODE": "10588",
             "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "pimavanserin",
+            "CONCEPT_NAME": "tiapride",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21604542,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "N05AH02",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "clozapine; systemic",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 766814,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "51272",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "quetiapine",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 800878,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "2626",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "clozapine",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 836877,
+            "CONCEPT_ID": 19010886,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "10390",
+            "CONCEPT_CODE": "114176",
             "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "tetrabenazine",
+            "CONCEPT_NAME": "zuclopenthixol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 792263,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6475",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "loxapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46275300,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1658314",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "brexpiprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 794852,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2403",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlorpromazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19016440,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1373",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "benperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37498659,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2275602",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Lumateperone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19017241,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73178",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "iloperidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19018226,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "155",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "acepromazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19025922,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7815",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "oxypertine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028044,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "penfluridol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19029555,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16735",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "acetophenazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 40137339,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "672564",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "paliperidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "U"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19035226,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35350",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "remoxipride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19039227,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19777",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bromperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19041817,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38133",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thiopropazate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19043327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "39468",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "veralipride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 700299,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10502",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thioridazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 700465,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10510",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thiothixene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19050633,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41996",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sertindole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19051234,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21877",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cyamemazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19052903,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8742",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "promazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 703083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6779",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "mesoridazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19053565,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8766",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "periciazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 703244,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "679314",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "paliperidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 704984,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10800",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "trifluoperazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19055982,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4495",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "flupenthixol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19056465,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4507",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluspirilene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19057607,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46303",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amisulpride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 709699,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7019",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "molindone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164052,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "784649",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "asenapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 712615,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "115698",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ziprasidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19072088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29961",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metylperon",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 733008,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8076",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "perphenazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 735979,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35636",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "risperidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35603277,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1667655",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cariprazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 739323,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3648",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "droperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19093225,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "33739",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pipamperone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19095002,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2406",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlorprothixene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 745790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8331",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pimozide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19100431,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37416",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sultopride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19100363,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2620",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clothiapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19102109,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40003",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "zotepine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 752061,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8704",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "prochlorperazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 756018,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4496",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluphenazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 757688,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "89013",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "aripiprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19115044,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55244",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "prothipendyl",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 766529,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5093",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "haloperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "59860",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlorproethazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40230761,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1040028",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lurasidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19000305,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10498",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thioproperazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19131663,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8042",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "perazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19133992,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8348",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pipothiazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 785788,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "61381",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olanzapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19005101,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10804",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "trifluperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19005104,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10805",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "triflupromazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19005147,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6852",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "methotrimeprazine",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
@@ -500,6 +1350,23 @@
             "CONCEPT_CODE": "1876905",
             "VOCABULARY_ID": "RxNorm",
             "CONCEPT_NAME": "deutetrabenazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 836877,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10390",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tetrabenazine",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
@@ -541,27 +1408,10 @@
           },
           "includeMapped": false,
           "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 19085688,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "6131",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "ketanserin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Ingredient",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
         }
       ]},
-      "name": "Medications associated with drug-induced parkinsonism [ucepd][Pheb2023]",
-      "id": 12
+      "name": "[ucepd][Pheb2023] ingredients that cause parkinsonism excluding those used for PD",
+      "id": 13
     }
   ],
   "cdmVersionRange": ">=5.0.0",
@@ -638,12 +1488,9 @@
                   "UseEventEnd": false,
                   "Start": {
                     "Days": 30,
-                    "Coeff": -1
+                    "Coeff": 1
                   },
-                  "End": {
-                    "Days": 1,
-                    "Coeff": -1
-                  },
+                  "End": {"Coeff": 1},
                   "UseIndexEnd": false
                 },
                 "IgnoreObservationPeriod": true,
@@ -761,7 +1608,7 @@
           },
           "IgnoreObservationPeriod": true,
           "Criteria": {"DrugExposure": {
-            "CodesetId": 12,
+            "CodesetId": 13,
             "DrugTypeExclude": false
           }},
           "Occurrence": {
